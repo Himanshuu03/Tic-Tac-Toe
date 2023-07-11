@@ -1,3 +1,6 @@
+const get = (parameter) =>{
+    document.querySelector(`${parameter}`)
+}
 const boxes = document.querySelectorAll('.box');
 const gameInfo = document.querySelector('.gameInfo');
 const newGameBtn = document.querySelector('.btn');

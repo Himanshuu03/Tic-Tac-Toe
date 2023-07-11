@@ -1,9 +1,7 @@
-const get = (parameter) =>{
-    document.querySelector(`${parameter}`)
-}
+const get = (param) => document.querySelector(`.${param}`);
 const boxes = document.querySelectorAll('.box');
-const gameInfo = document.querySelector('.gameInfo');
-const newGameBtn = document.querySelector('.btn');
+const gameInfo = get("gameInfo");
+const newGameBtn = get("btn");
 
 let currentPlayer;
 let gameGird;
